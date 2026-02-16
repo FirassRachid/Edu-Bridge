@@ -1,0 +1,27 @@
+.card-container{
+  background-color: white;
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.icon{
+  max-width: max-content;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.card-container h3 {
+  margin-top: 15px;
+}
+.card-container span{
+ color: rgb(198, 4, 4);
+ font-weight: 900;
+}
+.card-container p{
+  margin-top: 15px;
+}
+@media(max-width: 800px){
+.card-container {
+ width: 60%;
+}
+}

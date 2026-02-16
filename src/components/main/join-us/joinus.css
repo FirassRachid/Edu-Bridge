@@ -1,0 +1,49 @@
+#joinus{
+  background-color: var(--dark-blue);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 0;
+}
+.h1-p-j-d{
+  color: white;
+  width: 50%;
+  margin: auto;
+}
+#joinus div h1{
+  margin-bottom: 15px;
+}
+
+.i-b-j-d{
+  margin-top: 25px;
+}
+.i-b-j-d input{
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+}
+.i-b-j-d button{
+  width: 20%;
+  padding: 10px;
+  border-radius: 0 10px 10px 0 ;
+  border: none;
+  cursor: pointer;
+  background-color: var(--sky-blue);
+  color: white;
+  font-weight: 600;
+}
+@media(max-width: 800px){
+
+.i-b-j-d input {
+ width: 100%;
+ border-radius: 10px;
+ margin-bottom: 10px;
+}
+.i-b-j-d button {
+ width: 40%;
+ border-radius: 10px;
+}
+}

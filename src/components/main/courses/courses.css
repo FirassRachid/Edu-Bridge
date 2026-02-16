@@ -1,0 +1,15 @@
+#courses{
+  padding: 100px 25px;
+}
+.cards-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+@media(max-width: 800px){
+.cards-container {
+ flex-direction: column;
+ align-items: center;
+ gap: 50px;
+}
+}

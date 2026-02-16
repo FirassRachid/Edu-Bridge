@@ -1,0 +1,44 @@
+#footer{
+display: flex;
+justify-content: space-between;
+padding: 25px;
+}
+.box1{
+  width: 15%;
+}
+.p-j-b1{
+  color: var(--light-gray);
+  margin: 15px 0;
+}
+.icon-j-b1{
+  color: var(--sky-blue);
+  margin: 0 3px;
+}
+.box2 div{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.box2 h2{
+  margin-bottom: 15px;
+}
+.box2 div a{
+  color: var(--light-gray);
+}
+.box2 div a:hover{
+  color: var(--sky-blue);
+}
+@media(max-width: 800px){
+
+#footer {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 50px;
+}
+.box1{
+  width: 100%;
+}
+}
+.conact-me{
+  margin: 5px ;
+}

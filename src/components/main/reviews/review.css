@@ -1,0 +1,34 @@
+.reviews-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.review-container{
+  width: 30%;
+}
+.p-r-t{
+  width: 80%;
+  margin: 15px 0;
+}
+.i-n-c-div{
+  display: flex;
+  align-items: center;
+}
+.i-r-div{
+  width: 20%;
+}
+.i-r-div img {
+  width: 80%;
+  height: 150%;
+  border-radius: 50%;
+}
+@media(max-width: 800px){
+.reviews-container {
+ flex-direction: column;
+ gap: 50px;
+
+}
+.review-container{
+  width: 75%; 
+}
+}

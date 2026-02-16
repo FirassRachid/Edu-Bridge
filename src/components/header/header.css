@@ -1,0 +1,42 @@
+header {
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 25px;
+}
+header a {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+ul {
+  display: flex;
+  gap: 19px;
+}
+
+ul a:hover {
+  color: var(--red);
+}
+.join-link {
+  background-color: var(--sky-blue);
+  padding: 5px 19px;
+  border-radius: 5px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.arrow-icon , a {
+  vertical-align: middle;
+}
+@media(max-width: 800px){
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+}

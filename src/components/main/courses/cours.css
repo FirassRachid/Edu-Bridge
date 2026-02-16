@@ -1,0 +1,72 @@
+.card {
+  width: 27%;
+}
+.card img {
+  width: 100%;
+}
+.star {
+  color: gold;
+}
+.rating-div {
+  display: flex;
+  justify-content: space-between;
+}
+.rating {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.card h4 {
+  margin: 10px 0;
+}
+
+.p-c-t , .p-r-t {
+  color: var(--light-gray);
+}
+.p-c-s {
+  color: var(--light-gray);
+  font-weight: 700;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+del,
+.p-c-p {
+  color: var(--light-gray);
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 15px;
+}
+.p-c-p {
+  color: var(--green);
+}
+.duration-lessons-div{
+  margin:10px 0;
+}
+.duration-lessons-div span {
+  color: var(--light-gray);
+  margin-right: 25px;
+}
+.d-l-icon {
+  color: var(--sky-blue);
+  vertical-align: middle;
+}
+
+.card a{
+  color: var(--sky-blue);
+  border: 1px solid var(--sky-blue);
+  padding: 5px 15px;
+  border-radius: 19px;
+}
+.a-icon{
+  vertical-align: middle;
+}
+@media(max-width: 800px){
+.card{
+  width: 75%;
+}
+}
