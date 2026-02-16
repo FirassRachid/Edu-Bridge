@@ -2,13 +2,16 @@ import { FaStar } from "react-icons/fa";
 import { IoMdAlarm } from "react-icons/io";
 import { FaBookOpen } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa";
+import pens from "../../../public/pens.png";
+import light from "../../../public/light.png";
+import person from "../../../public/person.png";
 
 import "./cours.css";
 function Course() {
   const cards = [
     {
       id: "1",
-      image: "../../../../public/pens.png",
+      image: pens,
       name: "Graphic Design",
       title: "UI & UX Design",
       text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore hic repellat magni voluptatibus asperiores eum dolortex ipsa rem maxime eius quaerat nulla. ",
@@ -21,7 +24,7 @@ function Course() {
     },
     {
       id: "2",
-      image: "../../../../public/light.png",
+      image: light,
       name: "Sofware Developmert",
       title: "Project Design",
       text: "dolores ipsa rem maxime eius quaerat nulla necessitatibus odit. Saepe porro quam minus quis culpa rerum accusantium delectus sed eos, recusandae vel.",
@@ -34,7 +37,7 @@ function Course() {
     },
     {
       id: "3",
-      image: "../../../../public/person.png",
+      image: person,
       name: "Web Developmert",
       title: "HTML & CSS",
       text: "minus quis culpa rerum accusantium delectus sed eos, recusandae vel sapiente aliquam odio optio doloremque laboriosam mollitia corrupti? Aliquid tdolores.",
