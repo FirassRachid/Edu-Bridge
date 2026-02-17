@@ -2,9 +2,9 @@ import { FaStar } from "react-icons/fa";
 import { IoMdAlarm } from "react-icons/io";
 import { FaBookOpen } from "react-icons/fa6";
 import { FaAngleRight } from "react-icons/fa";
-import pens from "../../../public/pens.png";
-import light from "../../../public/light.png";
-import person from "../../../public/person.png";
+import pens from "../../../assets/pens.png";
+import light from "../../../assets/light.png";
+import person from "../../../assets/person.png";
 
 import "./cours.css";
 function Course() {
@@ -71,15 +71,15 @@ function Course() {
             </div>
             <div className="duration-lessons-div">
               <span>
-                <IoMdAlarm className="d-l-icon" />{" "}
-                {card.duration}
+                <IoMdAlarm className="d-l-icon" /> {card.duration}
               </span>
               <span>
-                <FaBookOpen className="d-l-icon" />{" "} 
-                {card.lessons}
+                <FaBookOpen className="d-l-icon" /> {card.lessons}
               </span>
             </div>
-            <a href="">Learn More <FaAngleRight className="a-icon" /></a>
+            <a href="">
+              Learn More <FaAngleRight className="a-icon" />
+            </a>
           </div>
         );
       })}

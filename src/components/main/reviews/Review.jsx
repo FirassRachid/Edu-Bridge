@@ -1,25 +1,29 @@
 import { FaStar } from "react-icons/fa";
+import person1 from "../../../assets/person1.jpg";
+import person2 from "../../../assets/person2.jpg";
+import person3 from "../../../assets/person3.jpg";
+
 import './review.css'
 function Review() {
   const reviews = [
     {
       id: "1",
       text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore hic repellat magni voluptatibus ",
-      image: "../../../../public/person1.jpg",
+      image: person1,
       name: "Gamal Ahmad",
       career: "Software Engineer",
     },
     {
       id: "2",
       text: "Inventore hic repellat magni voluptatibus asperiores eum dolortex ipsa rem maxime eius quaerat nulla. ",
-      image: "../../../../public/person2.jpg",
+      image: person2,
       name: "Mohamad Amer",
       career: "Designer",
     },
     {
       id: "3",
       text: "quaerat repellat magni voluptatibus asperiores eum dolortex ipsa rem maxime eius quaerat a asperiores. ",
-      image: "../../../../public/person3.jpg",
+      image: person3,
       name: "Mohamad Gamal",
       career: "Developer",
     },
