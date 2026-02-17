@@ -5,7 +5,6 @@ import { FaAngleRight } from "react-icons/fa";
 import pens from "../../../assets/pens.png";
 import light from "../../../assets/light.png";
 import person from "../../../assets/person.png";
-
 import "./cours.css";
 function Course() {
   const cards = [
