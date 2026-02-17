@@ -65,7 +65,7 @@ function Footer() {
       </section>
       <p className="conact-me">
         By{" "}
-        <a href="https://mailto:firassrachid2000@gmail.com" target="_blank">
+        <a href="mailto:firassrachid2000@gmail.com" target="_blank">
           Firass Rachid
         </a>
         {" _ "}
